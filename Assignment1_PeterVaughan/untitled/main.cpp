@@ -33,22 +33,17 @@ int main()
     } else {
         cout << "Invalid index!" << endl;
     }
-    //head
+    //first to last index
     cout << list.index(0)->data << endl;
-
-    //middle info 
     cout << list.index(1)->data << endl;
     cout << list.index(2)->data << endl;
-    
-    //tail
     cout << list.index(3)->data << endl << endl;
 
     //pop - remove last element
     list.pop();
-    //head
+    //first to last index
     cout << list.index(0)->data << endl;
     cout << list.index(1)->data << endl;
-    //tail
     cout << list.index(2)->data << endl << endl;
 
     //contains value: 0 is false, 1 is true
