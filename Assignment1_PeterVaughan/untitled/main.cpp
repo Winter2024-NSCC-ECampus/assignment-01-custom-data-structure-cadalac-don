@@ -35,8 +35,11 @@ int main()
     }
     //head
     cout << list.index(0)->data << endl;
+
+    //middle info 
     cout << list.index(1)->data << endl;
     cout << list.index(2)->data << endl;
+    
     //tail
     cout << list.index(3)->data << endl << endl;
 
